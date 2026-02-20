@@ -14,7 +14,7 @@ const Navbar = () => {
       </li>
       <li>
         <NavLink
-          to="/allplants"
+          to="/allplant"
           className={({ isActive }) => (isActive ? "underline" : "")}
         >
           All Plants
